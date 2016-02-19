@@ -1,0 +1,26 @@
+{
+  "name": "lang-align",
+  "version": "1.0.0",
+  "description": "Use PanLex to graph where languages align",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Nick Doiron <ndoiron@mapmeld.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "fast-csv": "^1.0.0",
+    "panlex": "^0.3.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapmeld/panlex-lang-align.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mapmeld/panlex-lang-align/issues"
+  },
+  "homepage": "https://github.com/mapmeld/panlex-lang-align#readme"
+}
