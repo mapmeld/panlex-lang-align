@@ -35,7 +35,8 @@ csv.fromPath('buck-combined-full.csv', { headers: true })
   })
   .on('end', function() {
     // compare: Kyrgyz and Marshallese language coverage
-    var languages = ['kir-000', 'mah-000'];
+    //var languages = ['kir-000', 'mah-000'];
+    var languages = ['mya-000', 'lug-000'];
     processLanguages(languages);
   });
 
@@ -92,8 +93,8 @@ function processLanguages(languages) {
             score++;
           }
         }
+        console.log((s+1) + ":" + lang + ": " + score);
       }
-      console.log("1:" + lang + ": " + score);
     });
   });
 }
