@@ -9,9 +9,9 @@
   "author": "Nick Doiron <ndoiron@mapmeld.com>",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^0.20.0",
-    "fast-csv": "^1.0.0",
-    "panlex": "^0.3.0",
+    "cheerio": "^0.22.0",
+    "fast-csv": "^2.4.0",
+    "panlex": "^1.0.1",
     "request": "^2.69.0"
   },
   "devDependencies": {},
