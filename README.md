@@ -1,5 +1,7 @@
 # lang-align
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/panlex-lang-align.svg)](https://greenkeeper.io/)
+
 Compares language coverage in the PanLex API
 
 ## What it does
